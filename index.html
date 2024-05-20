@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+
+
+  body, html {
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  color: white;
+  font-size: large;
+    }
+
+
+
+
+.spotlight {
+
+  background-image: url("f15_Spotlight.png");
+
+ 
+  height: 100%; 
+  width: 100%;
+ 
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+
+}
+
+
+
+
+.flying {
+  
+  background-image: url("f15_flying.png");
+
+  height: 100%; 
+  width: 100%;
+
+  
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+
+
+.flying1 {
+  
+  background-image: url("f15_flyingingame.png");
+
+  
+  height: 115%; 
+  
+  
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+
+
+div.transbox {
+  margin: 30px;
+  background-color: #000000;
+  border: 1px solid black;
+  opacity: 0.6;
+}
+
+.btn {
+  background-color: grey;
+  border: none;
+  color: white;
+  padding: 12px 30px;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+/* Darker background on mouse-over */
+.btn:hover {
+  background-color: rgba(128, 128, 128, 0.555);
+}
+
+  </style>
+</head>
+
+<body>
+
+
+    
+
+
+<div class="spotlight">
+<h1>Project flight
+</h1>
+
+<a href="f15_flyingingame.png" download="filename">
+<button class="btn" style="width:100%"><i class="fa fa-download"></i> Download</button>
+</a>
+<div class="transbox">
+
+
+
+<p>Step into the immersive world of Project Flight, a cutting-edge digital experience that transcends the boundaries of traditional flight simulators. Our mission is to transport you into the heart of aviation, where every element is meticulously designed to capture the essence of flight. From the intricate details of aircraft to the dynamic landscapes below, Project Flight offers an unparalleled level of realism and interactivity, making it a must-visit destination for aviation enthusiasts and adventure seekers alike.
+
+  Project Flight is not just a simulator; it's a comprehensive journey that immerses you in the thrilling world of aviation. Whether you're a seasoned pilot looking to hone your skills or a curious individual eager to explore the skies, our platform provides a unique blend of educational content and exhilarating gameplay. Dive into detailed aircraft models, navigate through realistic physics, and engage in challenging missions that push the limits of your piloting abilities.
+  
+  Designed with a focus on accessibility and inclusivity, Project Flight welcomes everyone with an interest in aviation. Our intuitive interface and supportive community ensure that newcomers can easily navigate the platform and find resources to help them get started. Whether you're looking to learn the basics of flight, compete in virtual air races, or simply enjoy the beauty of flying, Project Flight has something to offer.
+  
+  Join us on this exciting journey into the sky, where every moment is a new adventure waiting to unfold. Step into Project Flight today and let the thrill of flight take you to new heights.
+</p>
+</div>
+<iframe width="420" height="315"
+src="https://www.youtube.com/embed/NpEaa2P7qZI?si=bTa1hBixb7B3NMS3?autoplay=1&mute=1">
+</iframe>
+</div>
+
+
+
+
+<div class="flying">
+<div class="transbox">
+<h3>Photorealistic Graphics:</h3>
+<p>
+  Step into the immersive world of Project Flight, where every detail is meticulously crafted to bring the thrill of flight to life. Our commitment to realism is unparalleled, leveraging Google Earth's photorealistic tiles to recreate landscapes, cities, and terrains with stunning precision. This integration ensures that your journey through the skies is not just a simulation but a vividly detailed representation of the real world, making every flight an unforgettable adventure.
+
+  The use of Photorealistic 3D Tiles from Google Maps Platform, accessible via Cesium for Unreal, elevates the visual fidelity of Project Flight to new heights. These tiles, optimized for photogrammetry and reality models, provide a vast array of 3D meshes of the real world, all fully textured with accurate imagery. This technology streamlines the integration process, allowing for a seamless adaptation of real-time flight simulators to utilize this new content, enhancing the overall experience with breathtaking visuals.
+  
+  Moreover, the collaboration between Cesium and the Google Maps team has resulted in an experimental API release that enables developers to harness the power of Google's 3D assets. This dataset encompasses over 2,500 cities across 49 countries, offering a comprehensive view of the world's landscapes. The integration of these assets, combined with the Unreal Engine's capabilities, creates a dynamic and immersive flight experience that rivals the real thing.
+  
+  Project Flight is not just a simulator; it's a testament to the power of technology in recreating the world around us. By utilizing cutting-edge tools and datasets, we aim to provide an experience that is as close to the real thing as possible, ensuring that every moment in the cockpit is filled with the awe-inspiring beauty of flight.</p>
+</div>
+</div>
+
+
+
+
+<div class="flying1">
+<div class="transbox">
+<h3>Flight Dynamics:</h3>
+<p>
+  Experience the ultimate realism in flight with Project Flight, powered by JBSim, which brings the physics of flight to life with unparalleled accuracy. Our commitment to authenticity is evident in every aspect of the flight experience, from the aerodynamics of the aircraft to the atmospheric conditions encountered during flight.
+
+  JBSim, a sophisticated flight dynamics model, forms the backbone of Project Flight, ensuring that every aspect of the flight experience is as true to life as possible. This includes:
+</p>
+  <h4>Aerodynamic Simulation: </h4> <p> simulating the lift, drag, and thrust forces acting on an aircraft, JBSim captures the nuances of flight physics, allowing for a realistic handling of aircraft during takeoff, cruising, and landing phases.
+  </p>
+  <h4>Mass Balance:</h4> <p>Reflecting the distribution of weight within an aircraft, JBSim ensures that the flight dynamics are consistent with the actual center of gravity and weight distribution, affecting the aircraft's stability and control.
+  </p>
+  <h4>Accelerations:</h4> <p>Providing precise calculations of linear and angular accelerations, JBSim enables a realistic representation of how an aircraft responds to inputs from the pilot, such as throttle adjustments and steering commands.
+  </p>
+  <h4>Atmospheric Conditions:</h4> <p>Simulating the effects of temperature, pressure, and humidity on flight performance, JBSim accounts for the impact of various atmospheric conditions on aircraft behavior, including the effects of altitude and weather on aircraft speed and fuel consumption.
+  </p>
+  </h4>Winds:</h4> <p>Incorporating the influence of wind speed and direction on flight paths and aircraft performance, JBSim adds a layer of realism by simulating crosswinds, headwinds, and tailwinds, affecting the aircraft's ground speed and maneuverability.
+  </p>
+  <h4>Inertial Forces:</h4> <p>Modeling the forces experienced by an aircraft due to its motion, JBSim accurately simulates the Coriolis effect, centrifugal force, and other inertial phenomena, providing a realistic sense of motion and stability during flight.
+  </p>
+  <h4>Propulsion:</h4> <p>Detailing the operation of engines and propellers, JBSim accurately simulates the thrust produced by aircraft engines, taking into account factors such as engine type, throttle settings, and altitude.
+  </p>
+<p>By harnessing the power of JBSim, Project Flight offers a flight experience that is not just a simulation but a genuine reflection of the complexities and challenges of real-world aviation. This level of detail and realism ensures that every flight in Project Flight is a true-to-life adventure, providing pilots with an unparalleled opportunity to experience the physics of flight in a virtual environment.
+</p>
+
+
+</div>
+</div>
+
+
+
+
+
+</body>
+</html>
