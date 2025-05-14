@@ -1,2 +1,0 @@
-# AkhiPcWebsite
- Project flight website
